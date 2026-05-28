@@ -39,3 +39,36 @@ Dentro da classe `ExecutarTeste.java`, defina o caminho absoluto ou relativo do 
 
 ```java
 String caminhoArquivo = "src/arquivosTeste/meu_circuito.pla";
+
+
+## Exemplo de Entrada (circuito.pla)
+
+.i 4
+.o 1
+0000 0
+0100 1
+1000 1
+1100 1
+1010 1
+.e
+
+## Exemplo de Saída
+
+Carregando benchmark...
+[SISTEMA] Variáveis identificadas: 4
+[SISTEMA] Mintermos ativos (1): 3
+[SISTEMA] Minimizando com Agrupamentos Concorrentes...
+
+==================================================
+    RESULTADO DA MINIMIZAÇÃO DE Quine-McCluskey     
+==================================================
+ > Tempo gasto na minimização: 2 ms
+ > Total de Implicantes Primos gerados: 2
+--------------------------------------------------
+ [Lista de Cubos Reduzidos]
+   Termo 1: -000
+   Termo 2: 0-00
+--------------------------------------------------
+ [Expressão Booleana Dinâmica Simplificada]
+   F = (v1'v2'v3') + (v0'v2'v3')
+==================================================
