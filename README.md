@@ -1,0 +1,2 @@
+# Algoritmo-Quine-McCluskey-para-Minimiza-o-de-Express-es-Booleanas
+Minimizador lógico exato em Java que implementa o algoritmo de Quine-McCluskey com Multithreading nativo. Focado em processamento paralelo para tabelas de grande escala, faz o parse de arquivos .pla, mapeia dinamicamente rótulos de entrada (.ilb) e deduz funções simplificadas em Soma de Produtos de forma otimizada para relatórios EDA (DCOMP/UFS).
